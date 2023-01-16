@@ -8,11 +8,12 @@ main {
     width: 300px;
     margin: 0 auto;
     margin-top: 25px;
-    border-radius: 20px;
+    border-radius: 7px;
 }
 .title {
     margin: 0 auto;
     padding-top: 20px;
+    margin-bottom: 45px;
   
 }
 .title h1 {
@@ -22,7 +23,7 @@ main {
 }
 .label {
     font-family: Arial, Helvetica, sans-serif;
-    color: darkgray;
+    color: black;
     font-weight: 500;
     font-size: 14px;
 }
@@ -36,6 +37,7 @@ main {
     padding-bottom: 10px;
     width: 235px;
     margin-bottom: 10px;
+    padding-top: 15px;
 }
 form {
     margin-left: 30px;
@@ -48,7 +50,7 @@ a {
 }
 .btn {
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 .btn button {
     display: block;
@@ -72,6 +74,7 @@ button:hover {
 }
 .networks {
     display: flex;
+    height: 140px;
 }
 .vk {
     margin-left: 28%;
@@ -85,6 +88,7 @@ button:hover {
     margin-left: 38%;
     background-color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
 }
 .sing_up_btn button {
     outline: none;
