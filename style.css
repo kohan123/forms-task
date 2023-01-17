@@ -5,20 +5,18 @@ body {
 main {
     background-color: aliceblue;
     height: 600px;
-    width: 300px;
+    width: 35%;
     margin: 0 auto;
     margin-top: 25px;
     border-radius: 7px;
 }
 .title {
-    margin: 0 auto;
+    text-align: center;
     padding-top: 20px;
     margin-bottom: 45px;
   
 }
 .title h1 {
-    position: relative;
-    left: 34%;
     font-family: Arial, Helvetica, sans-serif;
 }
 .label {
@@ -30,20 +28,27 @@ main {
 .input {
     outline: none;
     border: none;
-    border-bottom: 1px solid;
     background-color: aliceblue;
-    border-color: rgb(218, 210, 210);
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 10px;
-    width: 235px;
-    margin-bottom: 10px;
     padding-top: 15px;
+    width: 85%;
+}
+.border {
+    border-bottom: 1px solid rgb(218, 210, 210);
+    width: 90%;
+}
+.mrg {
+margin-bottom: 20px;
 }
 form {
     margin-left: 30px;
 }
+.link {
+    text-align: right;
+    margin-right: 25px;
+}
 a {
-    margin-left: 173px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     text-decoration: none;
@@ -51,6 +56,7 @@ a {
 .btn {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 .btn button {
     display: block;
@@ -58,7 +64,7 @@ a {
     background-image: url("images/background.jpg");
     border: none;
     border-radius: 20px;
-    width: 80%;
+    width: 84%;
     color: aliceblue;
     margin-top: 10px;
     padding: 10px;
@@ -67,7 +73,7 @@ button:hover {
     color: rgb(76, 179, 76);
 }
 .sing_up {
-    margin-left: 31%;
+    text-align: center;
     color: rgb(175 175 175);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -75,24 +81,24 @@ button:hover {
 .networks {
     display: flex;
     height: 140px;
-}
-.vk {
-    margin-left: 28%;
+    width: 33%;
+    margin: 0 auto;
 }
  img {
-    width: 40px;
+    width: 95%;
     margin-bottom: 150px;
 }
 
 .sing_up_btn {
-    margin-left: 38%;
     background-color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
-    width: 80px;
+    width: 18%;
+    margin: 0 auto;
 }
 .sing_up_btn button {
     outline: none;
     border: none;
     font-size: 13px;
+    background-color: aliceblue;
 }
 
